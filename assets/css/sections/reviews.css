@@ -1,0 +1,78 @@
+.testimonial h2{
+    max-width: 447.805px;
+    color: #0B132A;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.testimonial p{
+    max-width: 555px;
+    color: #4F5665;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.review-profile{
+    display: flex;
+    gap: 10px;
+}
+/* .rating{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    
+} */
+.review-header{
+    display: flex;
+    gap: 10px;
+    margin: 30px 30px;
+    flex-grow: 1;
+
+} 
+.review-body {
+color: #0B132A;
+font-family: Rubik;
+font-size: 16px;
+font-weight: 400;
+line-height: 30px;
+display: block;
+
+}
+.review1{
+border-radius: 10px;
+border: 2px solid #F53838;
+background: #FFF;
+display: flex;
+flex-direction: column;
+}
+.review{
+border-radius: 10px;
+border: 2px solid #ddd;
+background: #FFF;
+display: flex;
+flex-direction: column;
+}
+.review-row{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+@media (max-width: 768px) {
+    .review-row{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 30px;
+    }
+}

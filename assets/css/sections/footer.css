@@ -1,0 +1,35 @@
+.Footer {
+  height: 50vh;
+  background-color: #f8f8f8;
+  padding-top: 10rem;
+}
+.logo{
+  display: flex;
+}
+.footer-list{
+  display: flex;
+  gap: 50px;
+}
+.footer{
+  display: flex;
+  gap: 500px;
+}
+.footer-text{
+width: 340px;
+height: 61.573px;
+color: #4F5665;
+font-family: Rubik;
+font-size: 16px;
+margin-top: 20px;
+}
+@media (max-width: 768px) {
+  .footer{
+    display: flex;
+    flex-direction: column-reverse;
+  
+  }
+  .footer-list{
+    display: flex;
+    flex-direction: column;
+  }
+}
